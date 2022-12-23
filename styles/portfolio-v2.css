@@ -4,7 +4,9 @@ font-family: 'Josefin Sans', sans-serif; */
 
 :root {
   --branding-color: #6c63ff;
-  --secondary-color: #f9f7fe;
+  --secondary-color: #696666;
+  --background-color: #d5d4d6;
+  --text-color: #000000;
   --heading-font-family: "Abril Fatface", cursive;
   --default-font-family: "Josefin Sans", sans-serif;
 }
@@ -13,7 +15,6 @@ body {
   font-family: var(--default-font-family);
 }
 
-h1,
 h2,
 h3,
 h4,
@@ -26,11 +27,10 @@ h6 {
 
 h1 {
   font-size: 96px;
-  line-height: 1.5;
-}
-
-h2 {
-  font-size: 64px;
+  line-height: 1.35;
+  font-family: var(--heading-font-family);
+  color: var(--secondary-color);
+  font-weight: normal;
 }
 
 p {
@@ -44,7 +44,7 @@ p {
 }
 
 .hero {
-  background: var(--secondary-color);
+  background: var(--background-color);
   text-align: center;
   padding: 160px 300px;
 }
@@ -57,7 +57,7 @@ p {
 }
 
 .hero h2 {
-  font-family: var(--heading-font-family);
+  font-family: var(--default-font-family);
   font-weight: normal;
   line-height: 1.5;
   font-size: 24px;
@@ -103,6 +103,42 @@ p {
     padding: 0;
     text-align: center;
   }
+}
+
+.navbar-brand {
+  font-family: (--default-font-family);
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.half-moon {
+  width: 47px;
+  padding: 5px;
+  border-bottom: 6px solid var(--branding-color);
+  border-right: 6px solid var(--branding-color);
+  border-radius: 4px 30px 33px 30px;
+}
+
+.home-title {
+  font-size: 65px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: var(--text-color);
+}
+
+.nav-item {
+  font-size: 20px;
+  padding-left: 60px;
+}
+
+.project-description h2 {
+  font-family: var(--heading-font-family);
+  font-size: 47px;
 }
 
 @media (max-width: 1700px) {
