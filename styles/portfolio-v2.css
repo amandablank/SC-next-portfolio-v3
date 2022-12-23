@@ -101,6 +101,10 @@ p {
   padding: 120px 60px;
 }
 
+.project-description p {
+  font-size: 22px;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
