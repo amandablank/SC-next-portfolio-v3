@@ -52,7 +52,7 @@
           <ul class="navbar-nav">
             <li class="nav-item">
               <a
-                class="nav-link active"
+                class="nav-link"
                 alt="Main page about Amanda Cristina Blankenburg, front-end developer based in Germany, Europe"
                 aria-current="page"
                 href="index.html"
@@ -61,13 +61,12 @@
             </li>
             <li class="nav-item">
               <a
-                class="nav-link"
+                class="nav-link active"
                 alt="Information about Amanda Cristina Blankenburg, front-end developer based in Germany, Europe"
                 href="about.html"
                 >About</a
               >
-            </li>
-            <li class="nav-item">
+              <li class="nav-item">
               <a
                 class="nav-link"
                 alt="Main page about Amanda Cristina Blankenburg, front-end developer based in Germany, Europe"
@@ -75,6 +74,7 @@
                 href="work.html"
                 >Projects</a
               >
+            </li>
             </li>
             <li class="nav-item">
               <a
@@ -90,92 +90,68 @@
     </nav>
     <div class="hero">
       <div class="row">
-        <div class="col-6 test-to-remain">
-          <p>Hi, I am</p>
-          <h1>Amanda Blankenburg</h1>
-          <h2 class="mb-5 mt-4">🇧🇷 Front-end developer, based in Germany</h2>
-          <div class="navigation-links mb-5">
-            <a href="index.html#projects" class="btn btn-branding"
-              >My Projects</a
-            >
-            <a href="about.html" class="btn btn-branding">About Me</a>
-          </div>
-        </div>
         <div class="col-6 test-to-remove">
           <div>
             <img
-              src="images/designer-woman.svg"
-              alt="woman-coding"
+              src="images/contact.svg"
+              alt="contact"
               class="img-fluid dev-img"
             />
+          </div>
+        </div>
+        <div class="col-6 test-to-remain">
+          <h1>About Me</h1>
+          <div class="about-me">
+            <p>
+              I am a front-end developer from Blumenau, Brazil and currently
+              based in Germany. This is my portfolio where I share my projects
+              and certifications. I'm passionate about learning new things and
+              have fun while doing so. In my spare time I enjoy spending time
+              with my family and friends, crocheting Amigurumi and building my
+              own projects.
+            </p>
+            <div class="navigation-links mb-5">
+              <a href="about.html#contact" class="btn btn-branding"
+                >Contact Me</a
+              >
+              <a href="about.html#certifications" class="btn btn-branding"
+                >My Certifications</a
+              >
+            </div>
           </div>
         </div>
       </div>
     </div>
     <div>
-      <p class="text-center text-muted home-title" id="projects">My Projects</p>
-    </div>
-    <div class="container">
-      <div class="row mb-5">
-        <div class="col d-none d-lg-block">
-          <img
-            src="images/amigurumi-project.png"
-            class="img-fluid p-2 mb-5 shadow"
-            alt=""
-          />
+      <div class="container">
+        <div id="certifications">
+          <p class="text-center text-muted about-title">Certifications</p>
         </div>
-        <div class="col">
-          <div class="project-description">
-            <h2 class="mb-5 text-muted">Landing Page</h2>
-            <p class="mb-5 text-muted">
-              Created a landing page from scratch about Amigurumi. The idea was
-              to create a page about something I like. Built with HTML and CSS
-              in VS Code Editor.
-            </p>
-            <a href="" class="btn btn-branding-outline"> Land project </a>
+        <div class="row">
+          <div class="col-sm-6">
+            <img
+              src="images/basics-certificate.png"
+              alt="certificate-basics"
+              class="img-fluid p-2 shadow rounded"
+            />
+          </div>
+          <div class="col-sm-6">
+            <img
+              src="images/plus-certificate.png"
+              alt="certificate-plus"
+              class="img-fluid p-2 shadow rounded"
+            />
           </div>
         </div>
       </div>
-      <div class="row mb-5">
-        <div class="col">
-          <div class="project-description">
-            <h2 class="mb-5 text-muted">Weather App | Version 1</h2>
-            <p class="mb-5 text-muted">
-              Weather Forecast search project. Implemented a Search Engine with
-              API integration (search for wind speed and weather description for
-              example). Everything that's included in the code works with real
-              data. Built with HTML, CSS, Javascript and Bootstrap in VS Code
-              Editor. Hosted on Github and Netlify.
-            </p>
-            <a href="" class="btn btn-branding-outline"> Land project </a>
-          </div>
-        </div>
-        <div class="col d-none d-lg-block">
-          <img
-            src="images/weather-app-v1.png"
-            class="img-fluid p-2 mb-5 shadow rounded"
-            alt=""
-          />
-        </div>
-      </div>
-      <div class="row mb-5">
-        <div class="col d-none d-lg-block">
-          <img
-            src="images/weather-app-v2.png"
-            class="img-fluid p-2 mb-5 shadow rounded"
-            alt=""
-          />
-        </div>
-        <div class="col">
-          <div class="project-description">
-            <h2 class="mb-5 text-muted">Weather App | Version 2</h2>
-            <p class="mb-5 text-muted">
-              Second version of the Weather Forecast search app. Changed the
-              design of the first version.
-            </p>
-            <a href="" class="btn btn-branding-outline"> Land project </a>
-          </div>
-        </div>
+      <p class="text-center text-muted about-title">Contact Me📮</p>
+      <div class="contact-link" id="contact">
+        <a
+          href="mailto:[email]"
+          alt="E-mail contact Amanda Cristina Blankenburg, front-end developer based in Germany, Europe"
+          class="email-link"
+          >amanda.blankenburg@gmail.com
+        </a>
       </div>
     </div>
   </body>
