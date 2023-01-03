@@ -140,7 +140,9 @@ p {
   border-radius: 4px 30px 33px 30px;
 }
 
-.home-title {
+.main-title,
+.about-title,
+.main-title p {
   font-size: 65px;
   margin-top: 110px;
   margin-bottom: 100px;
@@ -187,12 +189,6 @@ p {
   margin-bottom: 100px;
 }
 
-.about-title {
-  font-size: 65px;
-  margin-top: 110px;
-  margin-bottom: 80px;
-}
-
 .contact-link a {
   padding-top: 10px;
   font-size: 40px;
@@ -202,4 +198,19 @@ p {
 
 .contact-link a:hover {
   text-decoration: underline;
+}
+
+.social-media {
+  font-size: 80px;
+  text-align: center;
+}
+
+.social-media a {
+  text-decoration: none;
+  color: var(--branding-color);
+}
+
+.social-media a:hover {
+  text-decoration: none;
+  color: var(--secondary-color);
 }
