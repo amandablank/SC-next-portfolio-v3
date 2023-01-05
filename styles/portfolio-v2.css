@@ -33,6 +33,54 @@ h1 {
   font-weight: normal;
 }
 
+h4 {
+  font-size: 48px;
+}
+
+footer {
+  margin: 40px 0;
+}
+
+footer .contact-box {
+  background: var(--background-color);
+  padding: 50px 200px;
+  margin-top: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 20px;
+}
+
+footer .contact-box h4 {
+  margin: 0;
+  font-size: 58px;
+}
+
+footer .contact-box p {
+  margin: 15px;
+  font-size: 24px;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: var(--branding-color);
+  font-size: 26px;
+}
+
+footer .email-link:hover {
+  color: var(--secondary-color);
+}
+
+footer .social-links a {
+  margin: 0 24px;
+  color: var(--text-color);
+  font-size: 40px;
+}
+
+footer .social-links a:hover {
+  color: var(--branding-color);
+  transition: all 100ms ease-in-out;
+}
+
 p {
   font-weight: normal;
   font-size: 16px;
@@ -108,7 +156,7 @@ p {
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
-    line-height: 2;
+    line-height: 1.5;
   }
 
   h2 {
