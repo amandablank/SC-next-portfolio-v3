@@ -20,7 +20,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Josefin+Sans&family=Mulish:ital,wght@1,900&family=Open+Sans&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@700&display=swap"
       rel="stylesheet"
     />
     <script
@@ -41,7 +47,7 @@
     <nav class="navbar navbar-expand-lg bg-light fixed-top">
       <div class="container">
         <div class="half-moon" alt="Amanda's webpage personalized logo">
-          <a class="navbar-brand" href="/index.html">AB</a>
+          <a class="navbar-brand" href="#home">AB</a>
         </div>
         <button
           class="navbar-toggler"
@@ -58,10 +64,10 @@
           <ul class="navbar-nav">
             <li class="nav-item">
               <a
-                class="nav-link active"
+                class="nav-link"
                 alt="Main page about Amanda Cristina Blankenburg, front-end developer based in Germany, Europe."
                 aria-current="page"
-                href="index.html"
+                href="#home"
                 >Home</a
               >
             </li>
@@ -69,16 +75,24 @@
               <a
                 class="nav-link"
                 alt="Information about Amanda Cristina Blankenburg, front-end developer based in Germany, Europe."
-                href="about.html"
+                href="#about"
                 >About</a
               >
             </li>
             <li class="nav-item">
               <a
                 class="nav-link"
-                alt="Page showing Amanda Cristina Blankenburg projects."
+                alt="Certifications acquired by Amanda Cristina Blankenburg, front-end developer based in Germany, Europe."
+                href="#certificates"
+                >Certificates</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                alt="Amanda Cristina Blankenburg projects."
                 aria-current="page"
-                href="work.html"
+                href="#projects"
                 >Projects</a
               >
             </li>
@@ -86,7 +100,7 @@
               <a
                 class="nav-link"
                 alt="Contact Amanda Cristina Blankenburg, front-end developer based in Germany, Europe."
-                href="contact.html"
+                href="#contact"
                 >Contact</a
               >
             </li>
@@ -94,25 +108,127 @@
         </div>
       </div>
     </nav>
-    <div class="hero">
+    <div class="hero" id="home">
       <div class="row">
-        <div class="col-6 remain">
-          <p>Hi, I am</p>
-          <h1>Amanda Blankenburg</h1>
-          <h2 class="mb-5 mt-4">🇧🇷 Front-end developer, based in Germany</h2>
+        <div class="col-12 remain">
+          <h1 class="mt-4">Amanda Blankenburg</h1>
+          <h2 class="mb-5 mt-4">
+            Brazilian Front-end Developer, based in Germany
+          </h2>
           <div class="navigation-links">
-            <a href="index.html#projects" class="btn btn-branding"
-              >My Projects</a
-            >
-            <a href="about.html" class="btn btn-branding">About Me</a>
+            <a href="#projects" class="btn btn-branding">My Projects</a>
+            <a href="#about" class="btn btn-branding">About Me</a>
           </div>
         </div>
+      </div>
+    </div>
+    <div class="hero" id="about">
+      <div class="row">
         <div class="col-6 remove">
           <div>
             <img
-              src="images/designer-woman.svg"
-              alt="woman-coding"
+              src="images/amanda.jpg"
+              alt="developer-photo"
               class="img-fluid dev-img"
+            />
+          </div>
+        </div>
+        <div class="col-6 remain">
+          <h1 class="about">About Me</h1>
+          <div class="about-me">
+            <p>
+              I am an aspiring Front-end Developer from Blumenau, Brazil and
+              currently based in Germany. This is my portfolio where I share
+              some of my recent projects and certifications. I'm truly
+              passionate about learning new things and have fun while doing so.
+              In my spare time I enjoy spending time with my family and friends,
+              studying, crocheting Amigurumi and building my own projects.
+            </p>
+            <div class="navigation-links">
+              <a href="#certificates" class="btn btn-branding"
+                >My Certificates</a
+              >
+              <a href="#projects" class="btn btn-branding">My Projects</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="container">
+        <div id="certificates">
+          <p class="text-center text-muted about-title">Certificates</p>
+        </div>
+        <div class="row mb-5">
+          <div class="col-sm-6">
+            <img
+              src="images/basics-certificate.png"
+              alt="basics-certificate"
+              class="img-fluid p-2 shadow rounded"
+            />
+          </div>
+          <div class="col-sm-6">
+            <img
+              src="images/plus-certificate.png"
+              alt="plus-certificate"
+              class="img-fluid p-2 shadow rounded"
+            />
+          </div>
+        </div>
+        <div class="row mb-5">
+          <div class="col-sm-6">
+            <img
+              src="images/responsive-certificate.png"
+              alt="responsive-certificate"
+              class="img-fluid p-2 shadow rounded"
+            />
+          </div>
+          <div class="col-sm-6">
+            <img
+              src="images/react-certificate.png"
+              alt="react-certificate"
+              class="img-fluid p-2 shadow rounded"
+            />
+          </div>
+        </div>
+        <div class="row mb-5">
+          <div class="col-sm-6">
+            <img
+              src="images/basics-add-on-certificate.png"
+              alt="basics-add-on-certificate"
+              class="img-fluid p-2 shadow rounded"
+            />
+          </div>
+          <div class="col-sm-6">
+            <img
+              src="images/plus-add-on-certificate.png"
+              alt="plus-add-on-certificate"
+              class="img-fluid p-2 shadow rounded"
+            />
+          </div>
+        </div>
+        <div class="row mb-5">
+          <div class="col-sm-6">
+            <img
+              src="images/responsive-add-on-certificate.png"
+              alt="responsive-add-on-certificate"
+              class="img-fluid p-2 shadow rounded"
+            />
+          </div>
+          <div class="col-sm-6">
+            <img
+              src="images/react-add-on-certificate.png"
+              alt="react-add-on-certificate"
+              class="img-fluid p-2 shadow rounded"
+            />
+          </div>
+        </div>
+        <div class="row mb-5">
+          <div class="col-sm-8 mx-auto text-center">
+            <img
+              src="images/front-end-dev-certificate.png"
+              alt="front-end-dev-certificate"
+              class="img-fluid p-2 shadow rounded"
             />
           </div>
         </div>
@@ -125,25 +241,27 @@
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
           <img
-            src="images/amigurumi-project.png"
+            src="images/english-dictionary-app.jpg"
             class="img-fluid p-2 mb-5 shadow"
-            alt="Amigurumi project image."
+            alt="English Dictionary App Image"
           />
         </div>
         <div class="col">
           <div class="project-description">
-            <h2 class="mb-5 text-muted">Landing Page</h2>
+            <h2 class="mb-5 text-muted">English Dictionary Application</h2>
             <p class="mb-5 text-muted">
-              Created a landing page from scratch about Amigurumi. The idea was
-              to create a page about something I like. Built with HTML and CSS
-              in VS Code Editor.
+              Created an English Dictionary Application. Built with React,
+              Javascript, HTML + CSS in VS Code Editor. Implemented a Search
+              Engine with two API integrations to search english words and
+              display images. Project hosted on Netlify and open-sourced on
+              GitHub.
             </p>
             <a
-              href="https://lighthearted-pasca-291de4.netlify.app/"
+              href="https://dictionary-application-project.netlify.app/"
               class="btn btn-branding-outline"
               target="_blank"
             >
-              View more
+              View Project | Try it
             </a>
           </div>
         </div>
@@ -151,64 +269,90 @@
       <div class="row mb-5">
         <div class="col">
           <div class="project-description">
-            <h2 class="mb-5 text-muted">Weather App | Version 1</h2>
+            <h2 class="mb-5 text-muted">World Clock Project</h2>
             <p class="mb-5 text-muted">
-              Weather Forecast search project. Implemented a Search Engine with
-              API integration (search for wind speed and weather description for
-              example). Everything that's included in the code works with real
-              data. Built with HTML, CSS, Javascript and Bootstrap in VS Code
-              Editor. Hosted on Github and Netlify.
+              World Clock Application. Built with HTML + CSS and Javascript in
+              VS Code Editor. Project hosted on Netlify and open-sourced on
+              GitHub.
             </p>
             <a
-              href="https://animated-semifreddo-fac59f.netlify.app/"
+              href="https://world-clock-project-javascript.netlify.app/"
               class="btn btn-branding-outline"
               target="_blank"
             >
-              View more
+              View Project | Try it
             </a>
           </div>
         </div>
         <div class="col d-none d-lg-block">
           <img
-            src="images/weather-app-v1.png"
+            src="images/world-clock-app.jpg"
             class="img-fluid p-2 mb-5 shadow rounded"
-            alt="Weather app image - version 1."
+            alt="World Clock App image"
           />
         </div>
       </div>
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
           <img
-            src="images/weather-app-v2.png"
+            src="images/weather-app.jpg"
             class="img-fluid p-2 mb-5 shadow rounded"
-            alt="Weather app image - version 2."
+            alt="Weather app image"
           />
         </div>
         <div class="col">
           <div class="project-description">
-            <h2 class="mb-5 text-muted">Weather App | Version 2</h2>
+            <h2 class="mb-5 text-muted">Weather Forecast App</h2>
             <p class="mb-5 text-muted">
-              Second version of the Weather Forecast search app. Changed the
-              design of the first version.
+              Weather Forecast Project. Implemented a Search Engine with API
+              integration to search for wind speed and weather description, for
+              example. Everything that's included in the code works with real
+              data. Built with HTML + CSS, Javascript and Bootstrap in VS Code
+              Editor. Hosted on Netlify and open-sourced on GitHub.
             </p>
             <a
-              href="https://gentle-souffle-2efd83.netlify.app/"
+              href="https://amandas-weather-forecast-application.netlify.app/"
               class="btn btn-branding-outline"
               target="_blank"
             >
-              View more
+              View Project | Try it
             </a>
           </div>
+        </div>
+      </div>
+      <div class="row mb-5">
+        <div class="col">
+          <div class="project-description">
+            <h2 class="mb-5 text-muted">Landing Page - Travel Destination</h2>
+            <p class="mb-5 text-muted">
+              Landing page about Venice. Built with HTML + CSS, hosted on
+              Netlify and open-sourced on GitHUb.
+            </p>
+            <a
+              href="https://travel-to-venice.netlify.app/"
+              class="btn btn-branding-outline"
+              target="_blank"
+            >
+              View Project | Try it
+            </a>
+          </div>
+        </div>
+        <div class="col d-none d-lg-block">
+          <img
+            src="images/travel-to-venice-landingpage.jpg"
+            class="img-fluid p-2 mb-5 shadow rounded"
+            alt="Travel destination landing page image"
+          />
         </div>
       </div>
       <footer class="container">
-        <div class="contact-box justify-content-center mb-5 d-none d-md-flex">
+        <div
+          class="contact-box justify-content-center mb-5 d-none d-md-flex"
+          id="contact"
+        >
           <div class="text-center">
             <h4>Work Inquiry</h4>
-            <p class="text-muted">Let's work together 👩‍💻</p>
-            <a href="contact.html" class="btn btn-branding mt-3">
-              Contact me
-            </a>
+            <p class="text-muted">Let's work together👩‍💻</p>
           </div>
         </div>
         <div class="d-flex justify-content-center mb-5">
@@ -228,6 +372,12 @@
           </a>
           <a href="mailto:amanda.blankenburg@gmail.com">
             <i class="fa-solid fa-envelope"></i>
+          </a>
+          <a
+            href="https://drive.google.com/file/d/1OsjpvnpgL5spmT9To4d0W2prMdjHtybC/view?usp=share_link"
+            target="_blank"
+          >
+            <i class="fa-regular fa-file-pdf"></i>
           </a>
         </div>
       </footer>
